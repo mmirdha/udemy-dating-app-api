@@ -23,7 +23,7 @@ namespace DatingApp.API.Data
                 return null;
             }
 
-            if(!VerifyPasswordHas(password, user.PasswordHash, user.PasswordSalt)) 
+            if(!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt)) 
             {
                 return null;
             }
@@ -32,7 +32,7 @@ namespace DatingApp.API.Data
             
         }
 
-        private bool VerifyPasswordHas(string password, byte[] passwordHash, byte[] passwordSalt)
+        private bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
         {
             using(var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt)) 
             {
@@ -65,7 +65,6 @@ namespace DatingApp.API.Data
                 passwordSalt = hmac.Key;
                 passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
-            
         }
 
         async Task<bool> IAuthRepository.UserExists(string username)

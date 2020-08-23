@@ -68,3 +68,4 @@
 /home/monir/workspace/udemy/DatingApp/DatingApp.API/obj/Debug/netcoreapp3.1/DatingApp.API.dll
 /home/monir/workspace/udemy/DatingApp/DatingApp.API/obj/Debug/netcoreapp3.1/DatingApp.API.pdb
 /home/monir/workspace/udemy/DatingApp/DatingApp.API/obj/Debug/netcoreapp3.1/DatingApp.API.genruntimeconfig.cache
+/home/monir/workspace/udemy/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.1/Data/UserSeedData.json
