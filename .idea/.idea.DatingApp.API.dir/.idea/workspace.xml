@@ -22,31 +22,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7020486c-c188-4d72-a20b-7d2998e2fa24" name="Default Changelist" comment="Moved from VS code to Rider">
-      <change afterPath="$PROJECT_DIR$/Data/DatingRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/IDatingRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Seed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/UserSeedData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20200823172341_ExtendedUserClass.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20200823172341_ExtendedUserClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Photo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Data/UserSeedData.json" afterDir="false" />
+    <list default="true" id="7020486c-c188-4d72-a20b-7d2998e2fa24" name="Default Changelist" comment="added DatingRepository.cs and seeding test data">
+      <change afterPath="$PROJECT_DIR$/Controllers/UsersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dtos/UserForListDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AutoMapper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp.API.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp.API.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AuthRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatingApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DatingApp.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DatingApp.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datingapp.db" beforeDir="false" afterPath="$PROJECT_DIR$/datingapp.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/DatingApp.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DatingApp.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/DatingApp.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/DatingApp.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DatingApp.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +68,29 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8AC3C80D-2EF1-4DAE-AB8D-8F001C79AF97/3/ConnectionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/monir/workspace/udemy/DatingApp/DatingApp.API/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/monir/workspace/udemy/DatingApp/DatingApp.API/Controllers/AuthController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E699FDCC-3505-466D-A94A-2398153ECBF6/5/RunExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/90532C57-3208-4EEE-98C6-ADD6EC730440/A/IFeatureCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20200823172341_ExtendedUserClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/UserSeedData.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForListDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/Seed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B1388A67-6AA8-48F0-9325-096ADCB3E2CC/15/ExceptionHandlerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/IDatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/IAuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/DatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/monir/workspace/udemy/DatingApp/DatingApp.API/Controllers/AuthController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E699FDCC-3505-466D-A94A-2398153ECBF6/5/RunExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/90532C57-3208-4EEE-98C6-ADD6EC730440/A/IFeatureCollection.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForLoginDto.cs" />
-        <option value="$PROJECT_DIR$/Helpers/Extensions.cs" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
-        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/711016f2-06b4-46fc-b2b2-fc8d1581e4df/console.sql" />
         <option value="$PROJECT_DIR$/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Migrations/20200823163815_ExtendedUserClass.cs" />
@@ -82,7 +101,15 @@
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/Data/IDatingRepository.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForListDto.cs" />
+        <option value="$PROJECT_DIR$/DatingApp.API.csproj" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Helpers/Extensions.cs" />
+        <option value="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" />
       </list>
     </option>
   </component>
@@ -98,8 +125,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35006222" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29987556" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35042018" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -151,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597441510921</updated>
       <workItem from="1597441515791" duration="40000" />
-      <workItem from="1598024466348" duration="15834000" />
+      <workItem from="1598024466348" duration="20762000" />
     </task>
     <task id="LOCAL-00001" summary="Moved from VS code to Rider">
       <created>1598199596042</created>
@@ -160,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598199596042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added DatingRepository.cs and seeding test data">
+      <created>1598210871123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598210871123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,105 +217,106 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Moved from VS code to Rider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved from VS code to Rider" />
+    <MESSAGE value="added DatingRepository.cs and seeding test data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DatingRepository.cs and seeding test data" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2694" y="391" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598199414480">
+    <state x="2694" y="391" width="1060" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598215613324">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2694" y="391" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598199414480" />
-    <state x="2972" y="576" width="518" height="321" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1598199752427">
+    <state x="2694" y="391" width="1060" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215613324" />
+    <state x="2972" y="576" width="518" height="321" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1598212719715">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2972" y="576" width="518" height="321" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598199752427" />
+    <state x="2972" y="576" width="518" height="321" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598212719715" />
     <state x="2092" y="127" width="2288" height="1213" key="DiffContextDialog" timestamp="1598059139047">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2092" y="127" width="2288" height="1213" key="DiffContextDialog/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598059139047" />
-    <state x="2877" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598199408794">
+    <state x="2877" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598212617535">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2877" y="491" width="424" height="491" key="FileChooserDialogImpl/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598199408794" />
-    <state width="2442" height="386" key="GridCell.Tab.0.bottom" timestamp="1598205568747">
+    <state x="2877" y="491" width="424" height="491" key="FileChooserDialogImpl/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598212617535" />
+    <state width="1221" height="448" key="GridCell.Tab.0.bottom" timestamp="1598215620219">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="386" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205568747" />
-    <state width="2442" height="386" key="GridCell.Tab.0.center" timestamp="1598205568747">
+    <state width="1221" height="448" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620219" />
+    <state width="1221" height="448" key="GridCell.Tab.0.center" timestamp="1598215620219">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="386" key="GridCell.Tab.0.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205568747" />
-    <state width="2442" height="386" key="GridCell.Tab.0.left" timestamp="1598205568747">
+    <state width="1221" height="448" key="GridCell.Tab.0.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620219" />
+    <state width="1221" height="448" key="GridCell.Tab.0.left" timestamp="1598215620219">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="386" key="GridCell.Tab.0.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205568747" />
-    <state width="2442" height="386" key="GridCell.Tab.0.right" timestamp="1598205568747">
+    <state width="1221" height="448" key="GridCell.Tab.0.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620219" />
+    <state width="1221" height="448" key="GridCell.Tab.0.right" timestamp="1598215620219">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="386" key="GridCell.Tab.0.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205568747" />
-    <state width="2442" height="448" key="GridCell.Tab.1.bottom" timestamp="1598205567813">
+    <state width="1221" height="448" key="GridCell.Tab.0.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620219" />
+    <state width="1221" height="448" key="GridCell.Tab.1.bottom" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567813" />
-    <state width="2442" height="448" key="GridCell.Tab.1.center" timestamp="1598205567813">
+    <state width="1221" height="448" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.1.center" timestamp="1598215620108">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.1.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567813" />
-    <state width="2442" height="448" key="GridCell.Tab.1.left" timestamp="1598205567813">
+    <state width="1221" height="448" key="GridCell.Tab.1.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620108" />
+    <state width="1221" height="448" key="GridCell.Tab.1.left" timestamp="1598215620108">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.1.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567813" />
-    <state width="2442" height="448" key="GridCell.Tab.1.right" timestamp="1598205567813">
+    <state width="1221" height="448" key="GridCell.Tab.1.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620108" />
+    <state width="1221" height="448" key="GridCell.Tab.1.right" timestamp="1598215620108">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.1.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567813" />
-    <state width="2442" height="448" key="GridCell.Tab.2.bottom" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.1.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620108" />
+    <state width="1221" height="448" key="GridCell.Tab.2.bottom" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.2.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.2.center" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.2.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.2.center" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.2.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.2.left" timestamp="1598205567813">
+    <state width="1221" height="448" key="GridCell.Tab.2.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.2.left" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.2.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567813" />
-    <state width="2442" height="448" key="GridCell.Tab.2.right" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.2.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.2.right" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.2.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.3.bottom" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.2.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.3.bottom" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.3.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.3.center" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.3.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.3.center" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.3.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.3.left" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.3.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.3.left" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.3.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.3.right" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.3.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.3.right" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.3.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.4.bottom" timestamp="1598205567815">
+    <state width="1221" height="448" key="GridCell.Tab.3.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.4.bottom" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.4.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567815" />
-    <state width="2442" height="448" key="GridCell.Tab.4.center" timestamp="1598205567815">
+    <state width="1221" height="448" key="GridCell.Tab.4.bottom/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.4.center" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.4.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567815" />
-    <state width="2442" height="448" key="GridCell.Tab.4.left" timestamp="1598205567814">
+    <state width="1221" height="448" key="GridCell.Tab.4.center/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.4.left" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.4.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567814" />
-    <state width="2442" height="448" key="GridCell.Tab.4.right" timestamp="1598205567815">
+    <state width="1221" height="448" key="GridCell.Tab.4.left/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
+    <state width="1221" height="448" key="GridCell.Tab.4.right" timestamp="1598215620109">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2442" height="448" key="GridCell.Tab.4.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598205567815" />
+    <state width="1221" height="448" key="GridCell.Tab.4.right/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215620109" />
     <state width="263" height="498" key="HiddenNamespacesPopup" timestamp="1598199422258">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
@@ -299,17 +333,21 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2725" y="368" width="1022" height="737" key="SettingsEditor/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598199718105" />
-    <state width="513" height="506" key="SwitcherDM" timestamp="1598209156568">
+    <state width="513" height="563" key="SwitcherDM" timestamp="1598215509227">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="513" height="506" key="SwitcherDM/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598209156568" />
-    <state x="2831" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598199598706">
+    <state width="513" height="563" key="SwitcherDM/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215509227" />
+    <state x="2831" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598210873443">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2831" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598199598706" />
-    <state x="2899" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1598210636842">
+    <state x="2831" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598210873443" />
+    <state x="2879" y="342" width="713" height="783" key="find.popup" timestamp="1598213406998">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2899" y="349" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598210636842" />
+    <state x="2879" y="342" width="713" height="783" key="find.popup/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598213406998" />
+    <state x="2899" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1598215514253">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2899" y="349" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1440/0.97.1920.1080@1920.0.2560.1440" timestamp="1598215514253" />
   </component>
 </project>
